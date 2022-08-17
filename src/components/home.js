@@ -1,14 +1,6 @@
 import React from 'react'
 import logo from '../assets/img/logo.png';
 
-const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
-]
-
-
 export default function Home() {
     return (
         <body>
