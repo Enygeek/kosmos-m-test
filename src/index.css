@@ -50,12 +50,12 @@ code {
   background-size: cover;
 }
 
-.block .masthead-subheading {
+.block .block-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.block .masthead-heading {
+.block .block-heading {
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -67,11 +67,11 @@ code {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
-  .block .masthead-subheading {
+  .block .block-subheading {
     font-size: 2.25rem;
     line-height: 2.25rem;
   }
-  .block .masthead-heading {
+  .block .block-heading {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 4.5rem;
