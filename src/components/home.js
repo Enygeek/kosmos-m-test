@@ -1,5 +1,10 @@
 import React from 'react'
 import logo from '../assets/img/logo.png';
+import Facebook from '../assets/img/icons/Facebook.png';
+import Instagram from '../assets/img/icons/Instagram.png';
+import YouTube from '../assets/img/icons/YouTube.png';
+import Twitter from '../assets/img/icons/Twitter.png';
+import Linkedin from '../assets/img/icons/Linkedin.png';
 
 export default function Home() {
     return (
@@ -24,7 +29,7 @@ export default function Home() {
         </nav>
 
         <section className="block bg-1 mb-3">
-            <div className="container w-50">
+            <div className="container">
                 <div className="block-heading text-uppercase">Changez de métier</div>
                 <div className="block-subheading text-uppercase">Grâce au CPF de transition professionnelle</div>
                 <a className="btn btn-white border-white text-white text-uppercase mt-3" href="#services">En savoir plus</a>
@@ -67,11 +72,20 @@ export default function Home() {
                     </div>
                     <div className="col-lg-4 my-3 my-lg-0 text-lg-end">
                         <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter">
-                            <i className="fab fa-twitter"></i></a>
+                            <img src={Facebook} alt="logo" width="8"/>
+                        </a>
                         <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook">
-                            <i className="fab fa-facebook-f"></i></a>
+                            <img src={Twitter} alt="logo" width="15"/>
+                        </a>
                         <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn">
-                            <i className="fab fa-linkedin-in"></i></a>
+                            <img src={YouTube} alt="logo" width="15"/>
+                        </a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn">
+                            <img src={Linkedin} alt="logo" width="15"/>
+                        </a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn">
+                            <img src={Instagram} alt="logo" width="15"/>
+                        </a>
                     </div>
                 </div>
             </div>

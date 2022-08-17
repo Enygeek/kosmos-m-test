@@ -78,7 +78,12 @@ code {
   }
 }
 
-
+.bg-header {
+  background-image: url("assets/img/scroller.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center bottom;
+}
 
 /* 3 */
 .btn-3 {
