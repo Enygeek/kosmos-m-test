@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/img/logo.png';
 
 const navigation = [
     { name: 'Dashboard', href: '#', current: true },
@@ -13,7 +14,7 @@ export default function Home() {
         <body>
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
-                <a className="navbar-brand" href="#page-top"><img src="assets/img/logo.png" alt="..."/></a>
+                <a className="navbar-brand" href="#page-top"><img src={logo} alt="logo"/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -34,14 +35,14 @@ export default function Home() {
             <div className="container w-50">
                 <div className="block-heading text-uppercase">Changez de métier</div>
                 <div className="block-subheading text-uppercase">Grâce au CPF de transition professionnelle</div>
-                <a className="btn btn-outline-dark text-uppercase mt-3" href="#services">Tell Me More</a>
+                <a className="btn btn-white border-white text-white text-uppercase mt-3" href="#services">En savoir plus</a>
             </div>
         </section>
 
         <section className="block bg-2 mb-3">
             <div className="container w-50">
                 <div className="block-heading text-uppercase">Qu'est-ce qe le CPF de transition professionelle ?</div>
-                <a className="btn btn-outline-dark text-uppercase mt-3" href="#services">Tell Me More</a>
+                <a className="btn btn-white border-white text-white text-uppercase mt-3" href="#services">En savoir plus</a>
             </div>
         </section>
 
@@ -49,14 +50,14 @@ export default function Home() {
             <div className="container">
                 <p className="block-heading text-uppercase">Comment réaliser votre projet de réconverion professionnelle
                     ?</p>
-                <a className="btn btn-outline-warning border-white text-uppercase mt-3" href="#services">En savoir plus</a>
+                <a className="btn btn-white border-white text-white text-uppercase mt-3" href="#services">En savoir plus</a>
             </div>
         </section>
 
         <section className="block bg-4 mb-3">
             <div className="container">
                 <p className="block-heading text-uppercase">Discuter avec un conseiller !</p>
-                <a className="btn btn-outline-dark text-uppercase mt-3" href="#services">Conactez-nous!</a>
+                <a className="btn btn-white border-white text-white text-uppercase mt-3" href="#services">Contactez-nous !</a>
             </div>
         </section>
 
@@ -65,7 +66,7 @@ export default function Home() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4 text-lg-start">
-                        <img src="./assets/img/logo.png" alt="..."/>
+                        <img src={logo} alt="logo" width="80"/>
                     </div>
                     <div className="col-lg-4 text-lg-center text-white">
                         <a className="link-warning text-white text-decoration-none me-3" href="#!">Accueil</a>
